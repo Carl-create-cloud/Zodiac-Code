@@ -1,0 +1,112 @@
+#include <stdio.h>
+
+int main() {
+    int m;
+    int d;
+    
+    printf("\nPls enter your Birthmonth:");
+    scanf("%d",&m);
+    printf("\nPls enter your Birthday:");
+    scanf("%d",&d);
+    
+    if (m == 1)
+    {
+        if (d <= 19){
+            printf("You are a Capricorn");
+        }else{
+            printf("You are an Aquarius");
+        }
+    }
+    else if (m == 2)
+    {
+       if (d <= 18){
+           printf("You are an Aquarius");
+       }else{
+           printf("You are a Pisces");
+       }
+    }
+    else if (m == 3)
+    {
+       if (d <= 20){
+           printf("You are a Pisces");
+       }else{
+           printf("You are an Aries");
+       }
+    }
+    else if (m == 4)
+    {
+       if (d <= 19){
+           printf("You are an Aries");
+       }else{
+           printf("You are a Taurus");
+       }
+    }
+    else if (m == 5)
+    {
+       if (d <= 20){
+           printf("You are a Taurus");
+       }else{
+           printf("You are a Gemeni");
+       }
+    }
+    else if (m == 6)
+    {
+       if (d <= 21){
+           printf("You are a Gemeni");
+       }else{
+           printf("You are a Cancer");
+       }
+    }
+    else if (m == 7)
+    {
+       if (d <= 22){
+           printf("You are a Cancer");
+       }else{
+           printf("You are a Leo");
+       }
+    }
+    else if (m == 8)
+    {
+       if (d <= 22){
+           printf("You are a Leo");
+       }else{
+           printf("You are a Virgo");
+       }
+    }
+    else if (m == 9)
+    {
+       if (d <= 22){
+           printf("You are a Virgo");
+       }else{
+           printf("You are a Libra");
+       }
+    }
+    else if (m == 10)
+    {
+       if (d <= 23){
+           printf("You are a Libra");
+       }else{
+           printf("You are a Scorpio");
+       }
+    }
+    else if (m == 11)
+    {
+       if (d <= 21){
+           printf("You are a Scorpio");
+       }else{
+           printf("You are a Saggitarius");
+       }
+    }
+    else if (m == 12)
+    {
+       if (d <= 21){
+           printf("You are a Saggitarius");
+       }else{
+           printf("You are a Capricorn");
+       }
+    }
+        
+    
+    
+    return 0;
+}
